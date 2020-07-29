@@ -34,7 +34,7 @@ if addonName != "MyFirstAddOn":
         "Please rename it.")
     raise Exception(message)
 
-print(globals())
+
 try: from . import auto_load
 except: pass
 
